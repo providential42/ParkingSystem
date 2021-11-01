@@ -1,0 +1,25 @@
+package Util;
+//ÅÐ¶Ï×Ö·û´®ÊÇ·ñÎª¿Õ
+public class StringUtil {
+	//ÅÐ¶ÏÊÇ·ñÎª¿Õ
+	public static boolean isEmpty(String str) {
+		if(str==null||"".equals(str.trim()))
+		{
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+	//ÅÐ¶ÏÊÇ·ñ²»ÊÇ¿Õ
+	public static boolean isNotEmpty(String str) {
+		if(str!=null &&  !"".equals(str.trim()))
+		{
+			return true;
+		}
+		else {
+			return false;
+		}
+	}
+
+}
